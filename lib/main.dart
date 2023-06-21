@@ -1,3 +1,4 @@
+import 'package:cocktail_collections/pages/onboarding_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -30,6 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text("Cocktail Collections"),
       ),
+      body: const OnBoardingPage(),
     );
   }
 
